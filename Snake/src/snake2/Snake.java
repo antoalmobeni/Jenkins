@@ -116,7 +116,7 @@ public class Snake extends JFrame {
 	 * Creates a new Snake instance. Creates a new window,
 	 * and sets up the controller input.
 	 */
-	private Snake() {
+	public Snake() {
 		super("Snake Remake");
 		setLayout(new BorderLayout());
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -396,7 +396,7 @@ public class Snake extends JFrame {
 	/**
 	 * Starts the game running.
 	 */
-	private void startGame() {
+	public void startGame() {
 		/*
 		 * Initialize everything we're going to be using.
 		 */
